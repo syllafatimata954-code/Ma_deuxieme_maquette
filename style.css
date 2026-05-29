@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+}
+
+header {
+         margin-top: 20px;
+         display: flex;
+         width: 60%;
+         margin: auto;
+         justify-content: space-between;
+         align-items: center;
+}
+
+.logo  img {
+        margin-top: 10px;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+
+}
+
+header a:hover{
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+header ul,header li{
+     display: flex;
+    justify-content: flex-end;
+    width: 150px;
+}
+.banniere{
+    background-image: url(../Images/backgroung_image.jpg); 
+    background-size:contain;
+    height:300px ;
+    display: flex;
+    width: 60%;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+h2{
+    text-align: center;
+    width: 45%;
+    margin: auto;
+    height:55px ;
+    margin-top: 30px;
+}
+
+.conteneur{
+    width: 45%;
+    display: flex;
+    margin: auto;
+}
+
+.element{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.element h3{
+    margin: 10px 0px;
+}   
+
+.element p{
+    margin: 20px 0px;
+}
+
+.mon_agence{
+    text-align: center;
+    width: 25%;
+    margin: auto;
+}
+
+.mon_agence h3{
+    margin: 20px 0px;
+}
+
+.mon_agence p{
+    margin: 20px 0px;
+}
+
+footer{
+    width: 60%;
+    margin: auto;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+}
+
+.icones h3{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteneurs{
+    width: 250px;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+}
+
+footer a{
+    color: white;
+    text-decoration:none;
+     margin-top: 20px;
+}
+
+footer a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.pied_de_page  {
+    text-align: justify;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation{
+    width: 20%;
+     margin-top: 25px;
+}
